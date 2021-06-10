@@ -1,0 +1,30 @@
+/* -------------------------------- *
+ |  Project specific styles         |
+ * -------------------------------- */
+
+:root {
+  --main-color1: #050b16;
+  --main-color2: #0c182d;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: $neutral-900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a,
+p,
+span {
+  @include size-18;
+}
