@@ -246,6 +246,10 @@ body {
   .super-mario-font {
     font-size: 4rem;
 
+    @include breakpoint(medium) {
+      font-size: 5rem;
+    }
+
     > span {
       &:nth-child(5),
       &:nth-child(9),
